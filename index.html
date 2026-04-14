@@ -4,16 +4,32 @@
 
     <head>
         <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.socket.io/4.7.5/socket.io.min.js" defer></script>
         <script src="index.js" defer></script>
     </head>
 
     <body>
-        <div class="bubble" id="mainChatBox">
-            <div class="message"><span class="mr"><strong>helloboy930</strong></span>: Hello!</div>
+        <div id="flexbox">
+            <div class="bubble" id="mainChatBox">
+                <div id="message">
+                    <span class="name"style="color: rgb(255,0,0);"><strong>helloboy930</strong></span>: 
+                    <span class="text">Hello!</span>
+                </div>
+            </div>
+
+            <div class="bubble" id="username">
+                <h1>User Details</h1>
+                <p>Username: <input id="inputUsername" placeholder="user"></p> 
+                <p>r: <input id="inputr" placeholder="r" class="smallButton" type="number" maxlength="3"> g: <input id="inputg" placeholder="g" class="smallButton" type="number" maxlength="3"> b: <input id="inputb" placeholder="b" class="smallButton" type="number" maxlength="3"></p>
+                <button id="submitDetails">Submit</button>
+                <p style="color: red;">After you submit, you can no longer change your username.</p>
+                <p>If your page breaks, please refresh.</p>
+            </div>
         </div>
+        
 
         <div class="bubble" id="inputBox">
-            <input id="sendInput" placeholder="Type your message...">
+            <input disabled id="sendInput" placeholder="Type your message...">
             <button id="sendButton">Send</button>
         </div>
     </body>
