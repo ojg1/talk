@@ -61,3 +61,7 @@ button{
 .smallButton{
     width: 50px;
 }
+
+#tunnels{
+    width:5%;
+}

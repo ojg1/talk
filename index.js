@@ -25,6 +25,8 @@ socket.on("message", (msg) => {
     console.log("Received:", msg);
 });
 
+document.getElementById("")
+
 document.getElementById("sendButton").addEventListener("click", async function() {
 
     if (!username || colorR == null || colorG == null || colorB == null) {
