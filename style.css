@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: grey;
+}
+
+.bubble{
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(238, 238, 238);
+    padding: 5px 15px 5px 5px;
+}
+
+.mr{
+    color: red;
+}
+
+
+#mainChatBox{
+    width: 50%;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+#inputBox{
+    width: 50%;
+    height:auto;
+}
+
+#inputBox input{
+    width:80%;
+    font-family: "Inter", sans-serif;
+
+}
+
+#inputBox button{
+    width: 16.4%;
+    height: auto;
+    font-family: "Inter", sans-serif;
+}
