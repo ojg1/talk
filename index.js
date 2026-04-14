@@ -1,7 +1,7 @@
 
 // https://manga-shopping-scroll-yamaha.trycloudflare.com
 
-const ServerURL = "https://sku-wine-plenty-female.trycloudflare.com";
+const ServerURL = "https://manga-shopping-scroll-yamaha.trycloudflare.com";
 const socket = io(ServerURL);
 const template = document.getElementById("message");
 
