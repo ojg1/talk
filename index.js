@@ -1,7 +1,7 @@
 
 // https://manga-shopping-scroll-yamaha.trycloudflare.com
 
-const ServerURL = "https://manga-shopping-scroll-yamaha.trycloudflare.com";
+const ServerURL = "https://chat.orangejuice.qzz.io";
 const socket = io(ServerURL);
 const template = document.getElementById("message");
 
